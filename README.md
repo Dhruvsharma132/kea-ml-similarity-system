@@ -63,20 +63,39 @@ We need a system that can:
 "I want more leads for my business"
 ```
 
-kea-ml-similarity-system/
-│
-├── assets/
-│   ├── demo.png        ← (your main output)
-│   ├── topk.png        ← (top-k result)
-│   ├── batch.png       ← (batch processing)
-│   └── optimized.png   ← (cached embeddings)
-
-
 **Output:**
 
 ```text
 "I need help generating leads"
 ```
+
+---
+
+## 📸 Demo
+
+> Below are real outputs from the system demonstrating similarity matching and scalability features.
+
+### 🔍 Best Match Output
+
+![Best Match](assets/demo.png)
+
+---
+
+### ⭐ Top-K Matching
+
+![Top K Results](assets/topk.png)
+
+---
+
+### 🚀 Batch Processing
+
+![Batch Results](assets/batch.png)
+
+---
+
+### ⚡ Optimized (Cached Embeddings)
+
+![Optimized Output](assets/optimized.png)
 
 ---
 
@@ -151,8 +170,8 @@ def similarity_search(query, inputs, cached_embeddings=None):
 ## ⚡ Performance Optimization
 
 * Precomputed embeddings reduce repeated computation
-* Efficient for real-time systems
-* Ready for large-scale retrieval systems
+* Improves response latency
+* Enables efficient real-time matching
 
 ---
 
@@ -161,18 +180,18 @@ def similarity_search(query, inputs, cached_embeddings=None):
 * Latency of embedding generation
 * Scaling similarity search for large datasets
 * Handling noisy or incomplete inputs
-* Need for efficient indexing (vector search)
+* Need for vector search systems
 
 ---
 
 ## 📊 Evaluation
 
 * Cosine similarity used for ranking
-* Manual validation confirms semantic correctness
+* Manual validation confirms semantic accuracy
 * Can be extended with:
 
   * Similarity thresholds
-  * Precision/Recall evaluation
+  * Precision/Recall metrics
 
 ---
 
@@ -182,11 +201,12 @@ This system is designed to be **API-ready** and can be integrated into KeaBuilde
 
 * A **Python microservice (FastAPI)**
 * Called by **Node.js backend via REST API**
-* Used for:
 
-  * Lead matching
-  * Prompt similarity
-  * Template recommendations
+Use cases:
+
+* Lead matching
+* Prompt similarity
+* Template recommendations
 
 ---
 
@@ -194,10 +214,10 @@ This system is designed to be **API-ready** and can be integrated into KeaBuilde
 
 * 🔹 Vector database integration (**FAISS / Pinecone**)
 * 🔹 FastAPI deployment
-* 🔹 Redis caching for faster responses
+* 🔹 Redis caching
 * 🔹 Real-time similarity search
 * 🔹 Multilingual support
-* 🔹 Model fine-tuning for domain-specific tasks
+* 🔹 Domain-specific fine-tuning
 
 ---
 
