@@ -8,6 +8,8 @@ Unlike keyword-based approaches, this system uses **sentence embeddings** to cap
 
 ---
 
+<img src="C:\Users\Dhruv Sharma\Desktop\projrct - AIML\task1-1.png" width="300" />
+
 ## 🎯 Problem Statement
 
 In platforms like **KeaBuilder**, users generate leads and inputs through forms and automation workflows.
