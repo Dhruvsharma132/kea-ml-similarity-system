@@ -62,11 +62,6 @@ We need a system that can:
 ```text
 "I want more leads for my business"
 ```
-kea-ml-similarity-system/
-│
-├── assets/
-│   └── "C:\Users\Dhruv Sharma\Desktop\projrct - AIML\task1-1.png"
-
 
 **Output:**
 
