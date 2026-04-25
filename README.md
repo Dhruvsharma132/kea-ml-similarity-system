@@ -77,7 +77,7 @@ We need a system that can:
 
 ### 🔍 Best Match Output
 
-![Best Match](assets/demo.png)
+![Best Match]([assets/demo.png](https://github.com/Dhruvsharma132/kea-ml-similarity-system/blob/main/demo.png?raw=true))
 
 ---
 
