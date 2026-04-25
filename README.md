@@ -70,34 +70,32 @@ We need a system that can:
 ```
 
 ---
-
 ## 📸 Demo
 
 > Below are real outputs from the system demonstrating similarity matching and scalability features.
 
 ### 🔍 Best Match Output
 
-![Best Match]([assets/demo.png](https://github.com/Dhruvsharma132/kea-ml-similarity-system/blob/main/demo.png?raw=true))
+![Best Match](demo.png)
 
 ---
 
 ### ⭐ Top-K Matching
 
-![Top K Results]([assets/topk.png](https://github.com/Dhruvsharma132/kea-ml-similarity-system/blob/b8720a9ae82a6cfc9b8a37cfda71b7774da7b2cb/topk.png))
+![Top K Results](topk.png)
 
 ---
 
 ### 🚀 Batch Processing
 
-![Batch Results](assets/batch.png)
+![Batch Results](batch.png)
 
 ---
 
 ### ⚡ Optimized (Cached Embeddings)
 
-![Optimized Output](assets/optimized.png)
+![Optimized Output](optimized.png)
 
----
 
 ## 🏗️ System Architecture
 
