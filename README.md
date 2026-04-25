@@ -8,8 +8,6 @@ Unlike keyword-based approaches, this system uses **sentence embeddings** to cap
 
 ---
 
-<img src="C:\Users\Dhruv Sharma\Desktop\projrct - AIML\task1-1.png" width="300" />
-
 ## 🎯 Problem Statement
 
 In platforms like **KeaBuilder**, users generate leads and inputs through forms and automation workflows.
@@ -64,6 +62,15 @@ We need a system that can:
 ```text
 "I want more leads for my business"
 ```
+
+kea-ml-similarity-system/
+│
+├── assets/
+│   ├── demo.png        ← (your main output)
+│   ├── topk.png        ← (top-k result)
+│   ├── batch.png       ← (batch processing)
+│   └── optimized.png   ← (cached embeddings)
+
 
 **Output:**
 
