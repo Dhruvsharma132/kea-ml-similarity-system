@@ -83,7 +83,7 @@ We need a system that can:
 
 ### ⭐ Top-K Matching
 
-![Top K Results](assets/topk.png)
+![Top K Results]([assets/topk.png](https://github.com/Dhruvsharma132/kea-ml-similarity-system/blob/b8720a9ae82a6cfc9b8a37cfda71b7774da7b2cb/topk.png))
 
 ---
 
