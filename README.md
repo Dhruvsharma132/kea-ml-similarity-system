@@ -6,6 +6,9 @@ This project implements a **semantic similarity system** to match user inputs (s
 
 Unlike keyword-based approaches, this system uses **sentence embeddings** to capture the *meaning* of text, enabling more accurate and context-aware matching.
 
+Link to Loom Video:
+https://www.loom.com/share/9d590a2d0dd64d21b2c98f36035edd3d
+
 ---
 
 ## 🎯 Problem Statement
